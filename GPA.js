@@ -25,22 +25,10 @@ function calcGPA(data)
 			var grade = getGrade(data[i]);
 			i+=2;
 			
-			
-			//Begin iterating for credit value out of file
-			var readCredit = "";
-			
-			while(data[i] != '\n') //If it is the end of the line, stop reading
-			{
-				readCredit = readCredit += data[i];
-				i++;
-			}
-			
-			var credit = parseFloat(readCredit); //Convert the string from file to a float to be calculated
-
 		
-			gpa += credit * (weighting - (0.5 * grade)); //See explanation in function getGrade()
+			gpa += weighting - grade; //See explanation in function getGrade()
 			
-			count += credit;
+			count += 1;
 			
 		}
 	}
@@ -83,8 +71,8 @@ function getGrade(classGrade)
 {
 	var grade;
 	
-	/* The selected number will be multiplied by 0.5 and
-	 *  subtracted from the maximum weighting the class has*/
+	/* The selected number will be subtracted 
+	 * from the maximum weighting the class has*/
 	
 	switch(classGrade) 
 	{
