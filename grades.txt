@@ -1,0 +1,20 @@
+CP A 1
+CP C 1
+CP B 1
+CP B 1
+CP B 1
+CP B 1
+CP B 1
+CP B 1
+CP B 1
+CP B 1
+CP B 1
+CP A 1
+CP A 1
+CP A 1
+CP B 1
+CP B 1
+CP A 1
+CP A 1
+CP A 1
+

@@ -1,0 +1,21 @@
+GPA Grade Calculator
+1. Open the text file "grades"
+2. On each line, add your class type, grade, and credit in the following format:
+
+	CP A 1
+
+Remember to put a space between each separate part
+
+3. The options for class type are AP+, AP, H, CP, OC
+4. Save the document
+5. Move grades.txt and the file GPA.js to the computer desktop
+6. Press CTRL+Alt+T to open Terminal
+7. Type the following and press enter:
+
+	cd Desktop
+
+8. Type the following and press enter:
+
+	node GPA.js
+
+That's all!
