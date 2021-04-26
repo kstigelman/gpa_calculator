@@ -23,7 +23,7 @@ function calcGPA(data)
 			
 			//Get grade value from file
 			var grade = getGrade(data[i]);
-			i+=2;
+			i+=1;
 			
 		
 			gpa += weighting - grade; //See explanation in function getGrade()
