@@ -113,7 +113,7 @@ function getGrade(classGrade)
 	
 }
 
-const fs = require('fs');
-var data = fs.readFileSync('grades.txt', 'utf8');
+const fs = require('fs'); //Library for reading files
+var data = fs.readFileSync('grades.txt', 'utf8'); //Read from file and get GPA data
 
 console.log(calcGPA(data));
